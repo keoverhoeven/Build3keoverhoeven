@@ -8,11 +8,11 @@
 #define DS18S20_Pin D2
 
 // MQTT Configuration
-const char* MQTT_SERVER = "10.6.121.189";
-const int MQTT_PORT = 1883;
-const char* MQTT_USER = "keoverhoeven";
-const char* MQTT_PASSWORD = "KdGvvc7N";
-const char* MQTT_TOPIC = "temp";
+const char* MQTT_SERVER = "";
+const int MQTT_PORT = ;
+const char* MQTT_USER = "";
+const char* MQTT_PASSWORD = "";
+const char* MQTT_TOPIC = "";
 
 // Temperature sensor setup
 OneWire ds(DS18S20_Pin);
